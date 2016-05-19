@@ -7,13 +7,13 @@
 
 
 import React from "react";
+require ("../sass/style.scss");
 
 const InputField = () => {
   return (
     <div>
-      <label htmlFor="inputField">
-        <input id="inputField" type="text" />
-      </label>
+      <label htmlFor="inputField">First Name</label>
+      <input id="inputField" type="text" />
     </div>
   )
 }
