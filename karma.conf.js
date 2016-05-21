@@ -20,7 +20,7 @@ module.exports = function(config) {
             test: /\.js$/,
             loader: 'babel-loader',
             query: {
-              presets: ['react', 'es2015', 'stage-2']
+              presets: ['react', 'es2015', 'stage-0', 'stage-1', 'stage-2', 'stage-3']
             }
           }
         ]

@@ -7,7 +7,7 @@
 
 import React, {PropTypes} from "react";
 
-const {string, object, func, array} = PropTypes;
+const {string, object, func, array, number} = PropTypes;
 
 const ProgressBar = (props) => {
   return (
@@ -17,6 +17,9 @@ const ProgressBar = (props) => {
   );
 };
 
-
+ProgressBar.propTypes = {
+  noOfSteps: number.isRequired,
+  steps: array.isRequired
+};
 
 export default ProgressBar;
