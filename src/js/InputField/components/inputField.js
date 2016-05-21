@@ -7,7 +7,7 @@
 
 
 import React from "react";
-require ("../sass/style.scss");
+require ("../style/style.scss");
 
 const InputField = () => {
   return (
@@ -15,7 +15,7 @@ const InputField = () => {
       <label htmlFor="inputField">First Name</label>
       <input id="inputField" type="text" />
     </div>
-  )
-}
+  );
+};
 
 export default InputField;

@@ -1,0 +1,17 @@
+/*
+ * Specify your breakpoints
+ * @breakpoint
+ * @media
+ */
+
+ $breakpoint-mobile-zero: 0;
+ $breakpoint-mobile-portrait-1: 320px;
+ $breakpoint-mobile-landscape-1: 480px;
+ $breakpoint-mobile-portrait-2: 480px;
+ $breakpoint-mobile-landscape-2: 640px;
+ $breakpoint-desktop: 960px;
+ $breakpoint-tablet: 640px;
+
+ $breakpoint-desktop-small: 768px;
+ $breakpoint-desktop-medium: 1024px;
+ $breakpoint-desktop-large: 1280px;
