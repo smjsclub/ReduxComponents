@@ -1,0 +1,25 @@
+/*
+ * import all
+ * @variables, @normalization, @grids, @breakpoints, @mixins, @animations
+ */
+
+ @import "../../../style/normalization";
+ @import "../../../style/mixins";
+
+ .progress-bar {
+   ul {
+     @include clearfix;
+     border-width: 1px 0 1px 1px;
+     border-style: solid;
+     border-color: #CCCCCC;
+     li {
+       list-style-type: none;
+       width: (100%/3);
+       float: left;
+       text-align: center;
+       border-width: 0 1px 0 0;
+       border-color: #CCCCCC;
+       border-style: solid;
+     }
+   }
+ }
